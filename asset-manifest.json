@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/hiretonnies/static/css/main.92521f24.css",
+    "main.js": "/hiretonnies/static/js/main.8c1ec9b2.js",
+    "static/js/787.e80cff35.chunk.js": "/hiretonnies/static/js/787.e80cff35.chunk.js",
+    "static/media/kia.jpg": "/hiretonnies/static/media/kia.ef6dd0eb10aee9c14097.jpg",
+    "static/media/redbmw.jpg": "/hiretonnies/static/media/redbmw.a6099c54fbb57fdce325.jpg",
+    "static/media/displaysteering.jpeg": "/hiretonnies/static/media/displaysteering.8b8af46f77ebbb97e55d.jpeg",
+    "static/media/blackprado.jpeg": "/hiretonnies/static/media/blackprado.8790b31355732b3645a3.jpeg",
+    "static/media/purplebmw.jpg": "/hiretonnies/static/media/purplebmw.e2ba2623789aa211881b.jpg",
+    "static/media/prado.jpeg": "/hiretonnies/static/media/prado.e43899cd55e67848086b.jpeg",
+    "static/media/suvbmw.jpg": "/hiretonnies/static/media/suvbmw.7324fd693bb74ab67b36.jpg",
+    "index.html": "/hiretonnies/index.html",
+    "main.92521f24.css.map": "/hiretonnies/static/css/main.92521f24.css.map",
+    "main.8c1ec9b2.js.map": "/hiretonnies/static/js/main.8c1ec9b2.js.map",
+    "787.e80cff35.chunk.js.map": "/hiretonnies/static/js/787.e80cff35.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.92521f24.css",
+    "static/js/main.8c1ec9b2.js"
+  ]
+}
