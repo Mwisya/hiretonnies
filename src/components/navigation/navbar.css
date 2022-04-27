@@ -1,0 +1,166 @@
+
+.navbar_container{
+    width: 100vw;
+    background: linear-gradient(to right, aqua, rgb(3, 22, 63));
+    position: relative;
+    height: 13vh;
+    padding:2rem;
+
+    color: aqua;
+    background-color: rgb(3, 22, 63);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+ /* lOGO */
+
+.logo{
+    font-weight: 900;
+
+    
+}
+
+.logo h2{
+    font-size: 2rem;
+    font-weight: 900;
+    color: black;
+}
+.logo span{
+    font-family: monospace;
+    color: rgb(236, 9, 58);
+}
+
+/* NAVIGATION MENU */
+.menu__icon{
+    color: black;
+    cursor: pointer;
+}
+.menu_active{
+    position: fixed;
+    top: 6.2rem;
+    right: 0;
+    z-index: 10;
+    width: 220px;
+    height: 50%;
+    border-radius: 10px;
+    background-color: blue;
+    
+    transition: 0.5s ease-in-out;
+    animation: scale-up 0.3s ease-in;
+    overflow: hidden;
+
+}
+
+.close-btn{
+    color: red;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;font-weight: 600;
+
+}
+
+
+.social_media-nav{
+  padding: 10px 19px;
+  cursor: pointer;
+
+
+}
+.social__media-container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.social__media-container > a{
+    margin: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    transition: 400ms ease-out;
+}
+.social__media-container >a:hover{
+    color: chartreuse;
+}
+
+
+
+@keyframes scale-up {
+    0%{
+        transform: scale(0.5);
+        -webkit-transform: scale(0.5);
+    }
+    100%{
+        transform: scale(1);
+        -webkit-transform: scale(1);
+
+    }
+}
+@-webkit-keyframes scale-up{
+    0%{
+        transform: scale(0.5);
+        -webkit-transform: scale(0.5);
+    }
+    100%{
+        transform: scale(1);
+        -webkit-transform: scale(1);
+
+    }
+}
+@-moz-keyframes scale-up{
+    0%{
+        transform: scale(0.5);
+        -webkit-transform: scale(0.5);
+    }
+    100%{
+        transform: scale(1);
+        -webkit-transform: scale(1);
+
+    }
+}
+
+
+
+
+
+
+@media screen and (max-width:800px){
+    
+    .navbar_container{
+        padding: 1rem 4rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+   .navigation__links-container{
+       display: none;
+   }
+
+   .logo{
+       font-size: 1.6rem;
+   }
+ 
+   .navigation__menu-container svg{
+    font-weight: 900;
+    color: white;
+    font-size: 2rem;
+}
+
+}
+@media screen and (max-width:1024px) {
+    .navigation__links-container{
+        display: none;
+    }
+}
+
+
+@media screen and (min-width:1024px) {
+   .navigation__menu-container{
+       display: none;
+   }
+
+}
