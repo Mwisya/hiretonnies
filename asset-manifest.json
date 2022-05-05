@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/hiretonnies/static/css/main.92521f24.css",
-    "main.js": "/hiretonnies/static/js/main.8c1ec9b2.js",
+    "main.css": "/hiretonnies/static/css/main.8fd4d232.css",
+    "main.js": "/hiretonnies/static/js/main.b8cd265e.js",
     "static/js/787.e80cff35.chunk.js": "/hiretonnies/static/js/787.e80cff35.chunk.js",
     "static/media/kia.jpg": "/hiretonnies/static/media/kia.ef6dd0eb10aee9c14097.jpg",
     "static/media/redbmw.jpg": "/hiretonnies/static/media/redbmw.a6099c54fbb57fdce325.jpg",
@@ -11,12 +11,12 @@
     "static/media/prado.jpeg": "/hiretonnies/static/media/prado.e43899cd55e67848086b.jpeg",
     "static/media/suvbmw.jpg": "/hiretonnies/static/media/suvbmw.7324fd693bb74ab67b36.jpg",
     "index.html": "/hiretonnies/index.html",
-    "main.92521f24.css.map": "/hiretonnies/static/css/main.92521f24.css.map",
-    "main.8c1ec9b2.js.map": "/hiretonnies/static/js/main.8c1ec9b2.js.map",
+    "main.8fd4d232.css.map": "/hiretonnies/static/css/main.8fd4d232.css.map",
+    "main.b8cd265e.js.map": "/hiretonnies/static/js/main.b8cd265e.js.map",
     "787.e80cff35.chunk.js.map": "/hiretonnies/static/js/787.e80cff35.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.92521f24.css",
-    "static/js/main.8c1ec9b2.js"
+    "static/css/main.8fd4d232.css",
+    "static/js/main.b8cd265e.js"
   ]
 }
