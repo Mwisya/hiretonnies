@@ -1,9 +1,10 @@
 import React from 'react'
-import { Display, Footer, Nav, OurFleet, WhyChooseUs } from '../components/Index'
+import { Display, Advert, Footer, Nav, OurFleet, WhyChooseUs } from '../components/Index'
 
 const Homepage = () => {
   return (
     <div>
+     <Advert/>
       <Nav/>
      <Display/>
      <OurFleet/>

@@ -4,10 +4,10 @@ import './footer.css'
 
 const Footer = () => {
   return (
-    <footer >
+    <footer id='location' >
       <div className='container'>
 
-      <div className="services">
+      <div id='services' className="services">
          <h2>Our Services</h2>
          <p><ArrowForward/> Personal drives</p>
          <p><ArrowForward/> Chauffer drives</p>
@@ -19,16 +19,16 @@ const Footer = () => {
       <div className="contacts">
         <h2>Contact Us</h2>
           <p> <LocationOn /> Location: Moi Avenue</p>
-          <p><Email/> Email: wheelske@gmail.com</p>
-          <p> <Call/> +25419580450 </p>
-          <p> <Call/> +25419580450 </p>
+          <p><Email/> <a href="mailto:">wheelske@gmail.com</a> </p>
+          <p> <Call/> <a href="tel:+25419580450">+25419580450</a> </p>
+          <p> <Call/> <a href="tel:+25419580450">Call Us</a> </p>
       </div>
 
 
          <div className='social-media'>
                 <h2>Follow Us</h2>
               <div className='social_media-icons'>
-                <a href="mailto:HAsc@gmail.com" className='icon_color'><Email/></a>
+                <a href="mailto:" className='icon_color'><Email/></a>
                 <a href="http://api.whatsapp.com/send?phone=+25419580450" className='icon_color'><WhatsApp/></a>
                 <a href="http://" className='icon_color'><Instagram/></a>
                 <a href="http://" className='icon_color'><Facebook/></a>

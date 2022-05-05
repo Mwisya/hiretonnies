@@ -4,7 +4,6 @@ footer{
     color: white;
     background-color: black;
     padding: 2rem;
-    margin-top: 2rem;
 
     display: flex;
     gap: 2rem;
@@ -47,6 +46,9 @@ footer{
     display: flex;
     align-items: center;
     justify-content: flex-start;
+}
+.contacts > p > a{
+    color: white;
 }
 
   .contacts > p >svg{
@@ -101,11 +103,11 @@ footer{
         display: flex;
         align-items: center;
         justify-content: center;
-        font-size: 8px;
+        font-size: 12px;
     }
 
-    .contacts > p{
-        font-size: 8px;
+    .contacts > p > a{
+        font-size: 12px;
 
 
     }

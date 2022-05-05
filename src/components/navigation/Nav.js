@@ -6,12 +6,17 @@ import './navbar.css'
 
 
 
-const Navbar = ({onClick}) => {
+const Navbar = () => {
     const [toggle, setToggle]= useState(false)
 
     function open (){
         setToggle(true)
+    };
+
+    function close (){
+        setToggle(false);
     }
+  
 
    
     return (
@@ -27,15 +32,15 @@ const Navbar = ({onClick}) => {
 
             <div className='navigation__menu-container' >
 
-                { toggle ? 
-                     <Close className='close-btn' onClick={()=> {setToggle(false)}}/>:
-                    <MenuOutlined className='menu__icon' onClick={open}/>
-                }
+                 <MenuOutlined className='menu_icon' onClick={open}/>
 
             {
                 toggle &&  (
                   <div className='menu_active'>
-                      <Menu />
+                      <div className='close_menu-btn'>
+                       <Close onClick={close}/>
+                      </div>
+                      <Menu onClick={close}/>
                      <div className="social_media-nav">
                         <div className="social__media-container">
                             <a href="https://api.whatsapp.com/send?phone=+254722799775" target='_blank' rel="noreferrer"> <WhatsApp/> WhatsApp </a>

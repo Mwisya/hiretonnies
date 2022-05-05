@@ -1,17 +1,23 @@
-main {
+.display{
     position: relative;
     width: 100vw;
     height: 50rem;
     box-sizing: border-box;
+    margin-bottom: 1rem;
 }
 
+.image-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+}
 
 .bg-img{
     position: absolute;
     top: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    height: 90%;
 
 }
 
@@ -20,8 +26,8 @@ main {
     position: absolute;
     width: 100%;
     height: 100%;
-    z-index: 1;
-    background-color: #ffffff15;
+    z-index: 5;
+    background-color: #ffffff10;
     
 }
 .info{
@@ -41,7 +47,8 @@ main {
 }
 
 .info > h2{
-    font-size: 2rem;
+    padding: 1rem;
+    font-size: 1.5rem;
     font-weight: 900;
 }
 
@@ -50,29 +57,36 @@ main {
     font-weight: 800;
     padding: 1rem 2rem;
     color: white;
-    background-color: #ff000090;
+    background-color: crimson;
     border-radius: 50px;
 }
 .info > button:hover{
-    color: white;
-    background-color: crimson;
+    color: crimson;
+    background-color: white;
 }
 
 @media screen and (max-width:800px) {
-    main {
+    .display{
         position: relative;
         width: 100vw;
         height: 40rem;
         box-sizing: border-box;
     }
+
+    .bg-img{
+        position: absolute;
+        margin: auto;
+        height: 95%;
+    
+    }
     .info > h2{
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         font-weight: 700;
     }
 }
 
 @media screen and (max-width:1050px) {
-    main {
+    .display{
         position: relative;
         width: 100vw;
         height: 40rem;

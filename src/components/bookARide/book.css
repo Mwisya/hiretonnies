@@ -1,0 +1,62 @@
+.booking{
+    width: 100vw;
+    height: 30rem;
+    padding: 1rem;
+    transition: all 300ms ease;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: crimson;
+
+}
+
+.booking_contacts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 1rem;
+
+}
+
+.booking_contacts > p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    color: black;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+}
+.booking_contacts > p > a{
+    color: white;
+}
+
+.booking_contacts > p > svg{
+    color: aqua;
+}
+
+
+/* 
+@media  screen and (max-width:800px) {
+
+    .booking{
+        width: 100vw;
+        height: 30rem;
+        display: grid;
+       grid-template-columns: 100%;
+       position: relative;
+    }
+
+    .booking >img{
+        margin: 0 auto;
+        z-index: 1;
+        position: absolute;
+    }
+    .booking_contacts{
+        z-index: 2;
+        position: absolute;
+    }
+    
+} */

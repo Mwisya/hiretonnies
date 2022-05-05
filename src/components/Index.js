@@ -1,4 +1,6 @@
+export {default as Advert} from './advert/Advert';
 export {default as Nav} from './navigation/Nav';
+export {default as Book} from './bookARide/Book';
 export {default as Menu} from './menu/Menu'
 export { default as Display } from './display/Display';
 export { default as OurFleet } from './our-fleet/OurFleet';

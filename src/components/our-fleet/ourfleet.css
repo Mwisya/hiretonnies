@@ -82,11 +82,14 @@
 .cta-btns{
     cursor: pointer;
     display: flex;
-    gap: 2rem;
+    padding: 1rem;
+    gap: 1rem;
 
 }
 
 .cta-btns > p{
+    color: white;
+    text-decoration: none;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -96,11 +99,11 @@
 }
 
 .cta-btns > p > svg{
-    color: white;
+    color: aqua;
     margin-right: 10px;
 }
 .cta-btns > p:hover{
-    transform: scale(1.25);
+    transform: scale(1.2);
     color: crimson;
 
 }
@@ -108,6 +111,32 @@
     font-size: 2rem;
     margin-right: 2rem;
     
+}
+
+.call_us-btn{
+    margin-left: 10px;
+    padding: 5px 10px;
+    border-radius:10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: crimson;
+    border: 1px solid whitesmoke;
+}
+
+.call_us-btn > a{
+    color: crimson;
+}
+
+.call_us-btn:hover{
+    transform: scale(1.2);
+    transition: all 100ms ease-out;
+
+}
+.call_us-btn > svg{
+    color: aqua;
+    padding-right: 3px;
 }
 
 
@@ -131,7 +160,7 @@
     }
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1050px) {
     .gallery_container{
         width: var(--container-width-mscreen);
         display: grid;
@@ -140,7 +169,7 @@
     }
 
     .img-container > img{
-        height: 60%;
+        height: 50%;
     }
     
 }
